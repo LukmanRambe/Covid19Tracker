@@ -1,0 +1,40 @@
+{
+  "name": "submission2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.0",
+    "eslint": "^7.8.1",
+    "eslint-config-google": "^0.14.0",
+    "expose-loader": "^1.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.10",
+    "bootstrap": "^4.5.0",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-zoom": "^0.7.7",
+    "countup.js": "^2.0.7",
+    "firebase-tools": "^8.13.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "description": ""
+}

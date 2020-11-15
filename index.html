@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Covid-19 Tracker</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="icon" href="./images//favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+    <app-bar></app-bar>
+
+    <main>
+
+        <section>
+            <data-kasus></data-kasus>
+        </section>
+
+        <section id="data-provinsi">
+            <div class="container">
+                <h3 class="col-12">Data Per-Provinsi</h3>
+            </div>
+            <div class="container">
+                <div id="provinsi" class="col-12"></div>
+            </div>
+        </section>
+
+        <section id="edukasi">
+            <div class="container">
+                <h3 class="col-12">Edukasi</h3>
+            </div>
+            <div class="container">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow p-3 mb-5" id="card-index">
+                                <div class="card-body">
+                                    <img class="card-img-top mb-3" src="./images/virus.png">
+                                    <h4 class="font-weight-bold">Pengertian</h4>
+                                    <p class="card-text"> COVID-19 adalah jenis baru dari coronavirus yang menular
+                                        ke
+                                        manusia. Coronavirus
+                                        adalah kumpulan virus yang bisa menginfeksi sistem pernapasan. Virus ini
+                                        bisa
+                                        menyerang siapa saja, baik itu lansia ( golongan usia
+                                        lanjut
+                                        ),
+                                        orang dewasa, anak-anak, dan bayi, termasuk ibu hamil dan ibu menyusui.</p>
+                                    <a href="information.html#pengertian">More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <img class="card-img-top mb-3" src="./images/fever.png">
+                                    <h4 class="font-weight-bold">Gejala</h4>
+                                    <p class="card-text">Gejala awal infeksi COVID-19 menyerupai gejala
+                                        flu, yaitu demam, pilek, sakit tenggorokan dan sakit kepala. Setelah itu,
+                                        gejala dapat hilang atau malah memberat. Penderita dengan gejala yang berat
+                                        bisa mengalami demam tinggi, batuk berdahak bahkan berdarah, sesak napas,
+                                        dan
+                                        nyeri
+                                        dada.</p>
+                                    <a href="information.html#gejala">More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <img class="card-img-top mb-3" src="./images/pandemic.png">
+                                    <h4 class="font-weight-bold">Penularan</h4>
+                                    <p class="card-text">COVID-19, virus yang menginfeksi sistem pernapasan.
+                                        Pada
+                                        sebagian besar kasus,
+                                        virus ini hanya menyebabkan infeksi pernapasan ringan, seperti flu.
+                                        tetapi, virus ini juga bisa menyebabkan infeksi pernapasan berat, seperti
+                                        pneumonia,
+                                        MERS ( <em>Middle-East Respiratory Syndrome</em> ) dan SARS ( <em>Severe
+                                            Acute
+                                            Respiratory
+                                            Syndrome</em> ).</p>
+                                    <a href="information.html#penularan">More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <img class="card-img-top mb-3" src="./images/protected.png">
+                                    <h4 class="font-weight-bold">Pencegahan</h4>
+                                    <p class="card-text">Hingga saat ini, vaksin untuk
+                                        COVID-19
+                                        masih dalam tahap perkembangan para peneliti.
+                                        Namun, kita harus berusaha agar keluarga dan diri kita sendiri tidak
+                                        terinfeksi
+                                        oleh
+                                        COVID-19 ini, dengan melakukan berbagai pencegahan yang efektif menurut
+                                        badan
+                                        kesehatan
+                                        dunia yaitu WHO ( <em>World Health Organization</em> ).</p>
+                                    <a href="information.html#pencegahan">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <app-footer></app-footer>
+    
+</body>
+<script>
+    $(window).load(function () {
+        $(".spinner-border").fadeOut("fast");
+    });
+</script>
+
+</html>

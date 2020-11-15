@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Covid-19 Tracker</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="icon" href="./images//favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+    <app-bar></app-bar>
+
+    <main>
+        <section id="informasi" class="text-justify">
+            <div class="container">
+                <h3 class="col-12">Edukasi</h3>
+            </div>
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h4 id="pengertian" class="font-weight-bold">Pengertian</h4>
+                                    <p class="card-text"><em>Severe acute respiratory syndrome coronavirus 2</em>
+                                        (SARS-CoV-2)
+                                        yang lebih
+                                        dikenal dengan nama COVID-19 adalah jenis baru dari coronavirus yang menular ke
+                                        manusia. Virus ini bisa menyerang siapa saja, seperti lansia (golongan usia
+                                        lanjut),
+                                        orang dewasa, anak-anak, dan bayi, termasuk ibu hamil dan ibu menyusui.
+                                        Coronavirus
+                                        adalah kumpulan virus yang bisa menginfeksi sistem pernapasan. Pada banyak
+                                        kasus,
+                                        virus
+                                        ini hanya menyebabkan infeksi pernapasan ringan, seperti flu. Namun, virus ini
+                                        juga
+                                        bisa
+                                        menyebabkan infeksi pernapasan berat, seperti infeksi paru-paru (pneumonia).
+                                        Selain virus SARS-CoV-2 atau COVID-19, virus yang juga termasuk dalam kelompok
+                                        ini
+                                        adalah virus penyebab <em>Severe Acute Respiratory Syndrome</em> (SARS) dan
+                                        virus
+                                        penyebab
+                                        <em>Middle-East Respiratory Syndrome</em> (MERS). Meski disebabkan oleh virus
+                                        dari
+                                        kelompok yang
+                                        sama, yaitu coronavirus, COVID-19 memiliki beberapa perbedaan dengan SARS dan
+                                        MERS,
+                                        antara lain dalam hal kecepatan penyebaran dan keparahan gejala.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h4 id="gejala" class="font-weight-bold">Gejala</h4>
+                                    <div class="card-text">
+                                        <p>Gejala awal infeksi COVID-19 bisa menyerupai gejala
+                                            flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala.
+                                            Setelah
+                                            itu,
+                                            gejala dapat hilang dan sembuh atau malah memberat. Penderita dengan gejala
+                                            yang
+                                            berat
+                                            bisa mengalami demam tinggi, batuk berdahak bahkan berdarah, sesak napas,
+                                            dan
+                                            nyeri
+                                            dada. Gejala-gejala tersebut muncul ketika tubuh bereaksi melawan COVID-19.
+                                            Secara umum, ada 3 gejala yang bisa menandakan seseorang terinfeksi
+                                            COVID-19,
+                                            yaitu:
+                                            <ul class="pl-3">
+                                                <li>Demam ( suhu tubuh diatas 38&deg;C )</li>
+                                                <li>Batuk kering</li>
+                                                <li>Sesak napas</li>
+                                            </ul>
+                                            Ada beberapa gejala lain yang juga bisa muncul pada infeksi COVID-19
+                                            meskipun
+                                            lebih
+                                            jarang, yaitu:
+                                            <ul class="pl-3">
+                                                <li>Diare</li>
+                                                <li>Sakit kepala</li>
+                                                <li>Hilangnya kemampuan mengecap rasa atau mencium bau</li>
+                                            </ul>
+                                            Gejala-gejala COVID-19 ini umumnya muncul dalam waktu 2 hari sampai 2 minggu
+                                            setelah
+                                            penderita terpapar virus Corona.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h4 id="penularan" class="font-weight-bold">Penularan</h4>
+                                    <div class="card-text">
+                                        <p>Infeksi COVID-19 disebabkan oleh coronavirus, yaitu
+                                            kelompok virus yang menginfeksi sistem pernapasan. Pada sebagian besar
+                                            kasus,
+                                            coronavirus hanya menyebabkan infeksi pernapasan ringan sampai sedang,
+                                            seperti
+                                            flu.
+                                            Akan
+                                            tetapi, virus ini juga bisa menyebabkan infeksi pernapasan berat, seperti
+                                            pneumonia,
+                                            <em>Middle-East Respiratory Syndrome</em> (MERS) dan <em>Severe Acute
+                                                Respiratory
+                                                Syndrome</em> (SARS).
+                                            Ada dugaan bahwa COVID-19 awalnya ditularkan dari hewan ke manusia. Namun,
+                                            kemudian
+                                            diketahui bahwa COVID-19 juga menular dari manusia ke manusia.
+                                            Seseorang dapat tertular COVID-19 melalui berbagai cara, yaitu:
+                                            <ul class="pl-3">
+                                                <li>Tidak sengaja menghirup percikan ludah (droplet) yang keluar saat
+                                                    penderita
+                                                    COVID-19 batuk atau bersin</li>
+                                                <li>Memegang mulut atau hidung tanpa mencuci tangan terlebih dulu
+                                                    setelah
+                                                    menyentuh benda yang terkena cipratan ludah penderita COVID-19</li>
+                                                <li>Kontak jarak dekat dengan penderita COVID-19</li>
+                                            </ul>
+                                            Karena mudah menular, COVID-19 juga berisiko tinggi menginfeksi para tenaga
+                                            medis
+                                            yang merawat pasien COVID-19. Oleh karena itu, para tenaga medis dan
+                                            orang-orang
+                                            yang
+                                            memiliki kontak dengan pasien COVID-19 perlu menggunakan alat pelindung diri
+                                            (APD).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h4 id="pencegahan" class="font-weight-bold">Pencegahan</h4>
+                                    <div class="card-text">
+                                        <p>Sampai saat ini, belum ada vaksin untuk mencegah infeksi COVID-19. Oleh
+                                            sebab itu, cara pencegahan yang terbaik adalah dengan menghindari
+                                            faktor-faktor yang bisa menyebabkan Anda terinfeksi virus ini, yaitu:
+                                            <ul class="pl-3">
+                                                <li>Terapkan physical distancing, yaitu menjaga jarak minimal 1 meter
+                                                    dari
+                                                    orang
+                                                    lain, dan jangan dulu ke luar rumah kecuali ada keperluan mendesak.
+                                                </li>
+                                                <li>Gunakan masker saat beraktivitas di tempat umum atau keramaian,
+                                                    termasuk
+                                                    saat
+                                                    pergi berbelanja bahan makanan.</li>
+                                                <li>Rutin mencuci tangan dengan air dan sabun atau hand sanitizer yang
+                                                    mengandung
+                                                    alkohol minimal 60%, terutama setelah beraktivitas di luar rumah
+                                                    atau di
+                                                    tempat
+                                                    umum.</li>
+                                                <li>Tingkatkan daya tahan tubuh dengan pola hidup sehat, seperti
+                                                    mengonsumsi
+                                                    makanan bergizi, berolahraga secara rutin, beristirahat yang cukup,
+                                                    dan
+                                                    mencegah
+                                                    stres.</li>
+                                                <li>Jaga kebersihan benda yang sering disentuh dan kebersihan
+                                                    lingkungan,
+                                                    termasuk
+                                                    kebersihan rumah.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <app-footer></app-footer>
+    
+</body>
+
+
+
+</html>

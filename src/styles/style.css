@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar Section */
+.navbar {
+    background: rgb(41, 46, 49);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0;
+}
+
+.navbar-brand {
+    color: rgba(40, 223, 153, 1);
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-right: 35rem;
+}
+
+.navbar-brand:hover {
+    color: rgba(40, 223, 153, 1);
+    text-decoration: none;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-link:hover {
+    color: rgba(40, 223, 153, 1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Data Nasional */
+data-kasus .container {
+    margin-top: 6rem;
+}
+
+data-kasus .card {
+    width: 100%;
+    border-radius: .4rem;
+    background-color: #ffffff;
+}
+
+data-kasus .national-title h3 {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+data-kasus .national-title {
+    font-size: .7rem;
+    color: rgb(0, 0, 0);
+}
+
+data-kasus .card .card-body {
+    border-radius: .4rem;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: .9rem;
+}
+
+#positif {
+    color: rgba(226, 63, 65, 1);
+    background: rgba(255, 245, 244, 1);
+    border: 1px solid rgba(226, 63, 65, .3);
+}
+
+#aktif {
+    color: rgb(218, 189, 73);
+    background: rgb(253, 250, 233);
+    border: 1px solid rgba(218, 189, 73, .3);
+}
+
+#sembuh {
+    color: rgba(67, 156, 99, 1);
+    background: rgba(239, 255, 244, 1);
+    border: 1px solid rgba(67, 156, 99, .3);
+}
+
+#meninggal {
+    color: rgb(103, 112, 130);
+    background: rgba(237, 242, 246, 1);
+    border: 1px solid rgba(103, 112, 130, .3);
+}
+
+
+/* Data Provinsi */
+#data-provinsi {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 100%;
+}
+
+#data-provinsi h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: .8rem;
+    border-radius: .2rem;
+    margin-bottom: 2rem;
+    color: rgba(40, 223, 153, 1);
+    background: rgb(41, 46, 49);
+}
+
+#provinsi {
+    width: 100%;
+    height: 700px;
+}
+
+
+/* Edukasi */
+#edukasi h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: .8rem;
+    border-radius: .2rem;
+    margin-bottom: 2rem;
+    color: rgba(40, 223, 153, 1);
+    background: rgb(41, 46, 49);
+}
+
+#edukasi .card {
+    border-radius: .5rem;
+}
+
+#edukasi .card-img-top {
+    max-width: 20%;
+}
+
+.card a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Informasi */
+#informasi .card {
+    border-radius: .4rem;
+    padding: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+#informasi h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: .8rem;
+    border-radius: .2rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: rgba(40, 223, 153, 1);
+    background: rgb(41, 46, 49);
+}
+
+#informasi h4 {
+    margin-bottom: 1rem;
+}
+
+#informasi .card-text {
+    font-size: .9rem;
+    text-indent: 2rem;
+}
+
+
+/* About */
+#about {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+#about .card {
+    padding: 1rem;
+    padding-bottom: 0;
+    border-radius: .4rem;
+}
+
+#img {
+    max-width: 30%;
+}
+
+#about p {
+    margin-top: 2rem;
+    display: inline;
+}
+
+.sosmed {
+    margin-top: 2rem;
+}
+
+.sosmed a {
+    color: #000000;
+    font-size: 1.4rem;
+    display: inline;
+}
+
+.sosmed a:hover {
+    color: #28df99;
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+    position: absolute;
+    margin-top: 3rem;
+    width: 100%;
+    padding-top: 2.5rem;
+    background-color: rgb(41, 46, 49);
+    color: white;
+}
+
+.footer-brand {
+    color: #28df99;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.footer-brand:hover {
+    color: #28df99;
+    text-decoration: none;
+}
+
+.sumber-data {
+    margin-left: 14rem;
+}
+
+.sumber-data h6 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+.sumber-data a {
+    font-size: .8rem;
+    color: #9b9a9a;
+    text-align: left;
+}
+
+.sumber-data a:hover {
+    color: #28df99;
+    text-decoration: none;
+}
+
+.kontak {
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.kontak h6 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+.kontak a {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+    color: #9b9a9a;
+    text-align: left;
+    text-decoration: none;
+}
+
+.kontak a:hover {
+    color: #28df99;
+    text-decoration: none;
+}
+
+#copyright {
+    margin-top: 2.5rem;
+    text-align: center;
+}

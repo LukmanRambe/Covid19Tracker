@@ -1,0 +1,97 @@
+@media screen and (max-width: 1199px) {
+    .navbar-brand {
+        margin-right: 23.5rem;
+    }
+
+    .footer-brand {
+        margin-left: 1rem;
+    }
+
+    .sumber-data {
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .kontak {
+        margin-left: 1rem;
+    }
+
+    .kontak h6 {
+        margin-bottom: 1rem;
+    }
+    
+    .kontak p {
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .footer-brand {
+        margin-left: 1rem;
+    }
+
+    .sumber-data {
+        margin-left: 8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .kontak {
+        margin-left: 5rem;
+    }
+
+    .kontak h6 {
+        margin-bottom: 1rem;
+    }
+    
+    .kontak p {
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        margin-left: 5rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+    data-kasus .national-title {
+        font-size: .6rem;
+    }
+
+    data-kasus .card .card-text p, h3 {
+        font-size: 1.2rem;
+    }
+
+    #provinsi {
+        width: 150%;
+        height: 500px;
+        padding: 2px;
+    }
+
+    #edukasi h4 {
+        font-size: 1rem;
+    }
+
+    #edukasi .card-text {
+        font-size: .8rem;
+    }
+    
+    #informasi h4 {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    #informasi .card-text {
+        font-size: .8rem;
+        text-indent: 2rem;
+    }
+}
