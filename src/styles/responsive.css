@@ -1,0 +1,46 @@
+@media screen and (max-width: 991px) {
+	.navbar-collapse {
+		margin-top: 0.5rem;
+		justify-content: flex-start;
+	}
+
+	.navbar-nav {
+		gap: 0.5rem;
+	}
+
+	.data-kasus {
+		gap: 1rem;
+	}
+
+	footer {
+		padding: 3rem;
+		padding-bottom: 1rem;
+	}
+
+	.footer-brand {
+		margin-bottom: 1rem;
+	}
+
+	.kontak {
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.navbar {
+		padding: 0.6rem 3rem 0.6rem 2.5rem;
+	}
+
+	.navbar-brand,
+	.footer-brand {
+		font-size: 1.3rem;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+	}
+
+	p {
+		font-size: 0.9rem;
+	}
+}

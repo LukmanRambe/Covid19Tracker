@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f3f3f3;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	padding: 0 1rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+}
+
+.card {
+	border: none;
+	border-radius: 0.4rem;
+	background-color: #ffffff;
+	padding: 1.5rem;
+}
+
+/* Navbar Section */
+.navbar {
+	background: rgb(41, 46, 49);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0.6rem 6.9rem;
+}
+
+.navbar-brand,
+.footer-brand {
+	color: rgba(40, 223, 153, 1);
+	font-weight: 700;
+	font-size: 1.7rem;
+}
+
+.navbar-brand:hover,
+.footer-brand:hover {
+	color: rgba(40, 223, 153, 1);
+	text-decoration: none;
+}
+
+.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar-nav {
+	display: flex;
+	gap: 1.2rem;
+}
+
+.nav-link {
+	color: rgb(255, 255, 255);
+	font-size: 0.9rem;
+	line-height: 1rem;
+	letter-spacing: 0.1em;
+}
+
+.nav-link:hover {
+	color: rgba(40, 223, 153, 1);
+}
+
+/* Data Nasional */
+#data-nasional,
+#data-provinsi {
+	margin: 5rem 0;
+}
+
+data-kasus .container {
+	margin-top: 7rem;
+}
+
+data-kasus .national-title {
+	font-size: 0.7rem;
+	color: #000000;
+}
+
+data-kasus .card .card-body {
+	border-radius: 0.4rem;
+	text-align: center;
+}
+
+.positif {
+	color: rgba(226, 63, 65, 1);
+	background: rgba(255, 245, 244, 1);
+	border: 1px solid rgba(226, 63, 65, 0.3);
+}
+
+.aktif {
+	color: rgb(218, 189, 73);
+	background: rgb(253, 250, 233);
+	border: 1px solid rgba(218, 189, 73, 0.3);
+}
+
+.sembuh {
+	color: rgba(67, 156, 99, 1);
+	background: rgba(239, 255, 244, 1);
+	border: 1px solid rgba(67, 156, 99, 0.3);
+}
+
+.meninggal {
+	color: rgb(103, 112, 130);
+	background: rgba(237, 242, 246, 1);
+	border: 1px solid rgba(103, 112, 130, 0.3);
+}
+
+/* Data Provinsi */
+#data-provinsi h3 {
+	padding: 1rem 1.5rem;
+	border-radius: 0.4rem;
+	color: rgba(40, 223, 153, 1);
+	background: rgb(41, 46, 49);
+}
+
+#provinsi {
+	width: 100%;
+	max-width: 90vw;
+	height: 100%;
+	min-height: 700px;
+}
+
+/* About */
+#about {
+	margin-top: 8rem;
+	margin-bottom: 6rem;
+}
+
+.profile-pic {
+	width: 100%;
+	max-width: 20rem;
+}
+
+#about p {
+	margin-top: 2rem;
+}
+
+.sosmed {
+	margin-top: 2rem;
+}
+
+.sosmed .fa-ul {
+	display: flex;
+	justify-content: center;
+}
+
+.sosmed .fa-ul li {
+	margin: 0 2rem;
+}
+
+.sosmed a {
+	color: #000000;
+	font-size: 1.4rem;
+}
+
+.sosmed a:hover {
+	color: #28df99;
+	text-decoration: none;
+}
+
+/* Footer */
+footer {
+	margin-top: 7rem;
+	width: 100%;
+	padding: 3rem 1rem;
+	padding-bottom: 0;
+	background-color: rgb(41, 46, 49);
+	color: white;
+}
+
+footer .row {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer .row:not(:nth-child(1)) {
+	align-items: center;
+}
+
+footer h3 {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+	color: #ffffff;
+}
+
+footer a {
+	font-size: 0.8rem;
+	color: #9b9a9a;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #28df99;
+	text-decoration: none;
+}
+
+.kontak .fa-ul {
+	margin: 0;
+	margin-left: 1.5rem;
+}
+
+#copyright {
+	padding: 3rem 0 0.5rem;
+	text-align: center;
+}
